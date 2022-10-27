@@ -13,3 +13,6 @@ frame2.loc["three"]
 
 frame2 = pd.Series([1,2], index=["five","six"])
 
+val= pd.Series([-1.2,-1.5,-1.7], index=["two","four","five"])
+
+frame2["debt"]=val
