@@ -16,3 +16,13 @@ frame2 = pd.Series([1,2], index=["five","six"])
 val= pd.Series([-1.2,-1.5,-1.7], index=["two","four","five"])
 
 frame2["debt"]=val
+
+# new column 
+
+frame2["eastern"] = frame2["state"] == "Ohio"
+
+#delete a column
+
+del frame2["eastern"]
+
+
